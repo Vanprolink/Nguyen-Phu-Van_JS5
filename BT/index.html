@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Vui lòng chọn Khu Vực:</h2>
+    <br>
+    <li class="type">
+        <input type="radio" id="khuVuc1" name="selector" value="khuVuc1">
+        <label for="khuVuc1">Khu Vực 1</label>
+        
+        <div class="check"></div>
+      </li>
+    <!-- <input id="khuVuc1" type="radio"name="selector"> Khu Vực 1 -->
+    <input id="khuVuc2" type="radio"name="selector"> Khu Vực 2
+    <input id="khuVuc3" type="radio"name="selector"> Khu Vực 3
+    <input id="khuVucX" type="radio"name="selector"> Không Thuộc Khu Vực 
+    <br>
+    <h2>Chọn Đối Tượng Ưu Tiên</h2>
+    <input id="uuTien1" type="radio" name="selector1"> Đối Tượng Ưu Tiên 1
+    <br>
+    <input id="uuTien2" type="radio"name="selector1"> Đối Tượng Ưu Tiên 2
+    <br>
+    <input id="uuTien3" type="radio"name="selector1"> Đối Tượng Ưu Tiên 3
+    <br>
+    <input id="uuTienX" type="radio"name="selector1"> Không Thuộc Đối Tượng Ưu Tiên 
+    <br>
+    <h2>Điểm Chuẩn Đại Học</h2>
+    <input id="diemChuan" type="text">
+    <br>
+    <h2>Điểm Môn Thứ Nhất</h2>
+    <input id="monThu1" type="text">
+    <h2>Điểm Môn Thứ Hai</h2>
+    <input id="monThu2" type="text">
+    <h2>Điểm Môn Thứ Ba</h2>
+    <input id="monThu3" type="text">
+    <br>
+    <br>
+    <button onclick="kiemTra()">Kiểm Tra</button>
+    <p id="xuatKetQua1">  </p>
+
+
+    <h2>Bài Tập Tính Tiền Điện</h2>
+    <h2>Nhập Số KW Điện</h2>
+    <input id="tienDien" type="text">
+    <br><br>
+    <button onclick="tinhTienDien()">Tính Tiển</button>
+    <p id="xuatKetQua2">  </p>
+
+
+
+
+
+
+    <script src="./BT3.js"></script>
+    <script src="./index.js"></script>
+    <script src="./BT2.js"></script>
+</body>
+</html>
